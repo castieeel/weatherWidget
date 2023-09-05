@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #efdecd;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather{
+    background-color: #dabdab;
+    width: 300px;
+    height: 350px;
+    opacity: 0.6;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 0 20px 0 20px;
+}
+
+.list-city{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;   
+}
+
+.center{
+    padding-top: 15px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center__temp{
+    color: white;
+    font-size: 48px;
+}
+
+.center__type{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin: 0 20px 0 20px;
+}
+
+.bottom{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+.group-dropdown__other_hidden{
+    display: none;
+}
+.suggest__suggest-popup {
+    position: absolute;
+    padding: 4px 2px;
+    border: 1px solid #333;
+    background: #fff;
+}
+
+.suggest__suggest-popup_hidden {
+    display: none;
+}
+
+.suggest__suggest-popup-item {
+    cursor: pointer;
+    padding: 2px 2px;
+    margin: 0 -2px;
+}
+.suggest__suggest-popup-item:hover {
+    background-color:rgba(122,122,122,0.5);
+}
